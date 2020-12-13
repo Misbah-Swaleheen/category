@@ -271,19 +271,16 @@ $watches =[$w1, $w2, $w3, $w4, $w5, $w6, $w7, $w8]
                         foreach ($cameras as $camera) { 
             ?>
             <div class=" d-flex mr-auto ml-auto my-3">
-                <div class="card text-center" style="width: 300px !important; height: 300px !important">
+                <div class="card text-center" style="width:300px !important; height: 300px !important">
   <img src="images/camera/<?php echo $camera -> image ?>" class="card-img-top ml-auto mr-auto mt-4" alt="...">
   <div class="card-body">
-    <p class="card-text mb-1"> <?php echo $camera -> name  ?>
-                    
-     </p>
+    <p class="card-text mb-1"> <?php echo $camera -> name  ?>               </p>
      <span style="color: red; display:block;"> Rs: <?php echo $camera -> price  ?></span>
   </div>
 </div>    
 </div>   
             <?php 
                         }
-                     
                     }
             elseif ($_GET['cid'] == 2) {    
                 foreach ($mobiles as $mobile) {
@@ -308,7 +305,7 @@ $watches =[$w1, $w2, $w3, $w4, $w5, $w6, $w7, $w8]
                         # code...
                         ?>
                          <div class=" d-flex mr-auto ml-auto my-3">
-                <div class="card text-center" style="width: 300px !important; height: 400px !important">
+                <div class="card text-center" style="width: 250px !important; height: 400px !important">
   <img src="images/watches/<?php echo $watch -> image ?>" class="card-img-top ml-auto mr-auto mt-4" alt="..." height="250px">
   <div class="card-body">
     <p class="card-text mb-1"> <?php echo $watch -> name  ?>
